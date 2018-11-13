@@ -1,13 +1,12 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(grid_map_rviz_plugin)
 
-set(CMAKE_CXX_FLAGS "-std=c++11 ${CMAKE_CXX_FLAGS}")
-
 find_package(catkin REQUIRED
   COMPONENTS
     rviz
     grid_map_ros
     grid_map_msgs
+    tf2_ros
 )
 
 catkin_package(
@@ -19,6 +18,7 @@ catkin_package(
     rviz
     grid_map_ros
     grid_map_msgs
+    tf2_ros
 )
 
 include_directories(
