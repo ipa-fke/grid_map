@@ -6,7 +6,6 @@ find_package(catkin REQUIRED
     rviz
     grid_map_ros
     grid_map_msgs
-    tf2_ros
 )
 
 catkin_package(
@@ -18,7 +17,6 @@ catkin_package(
     rviz
     grid_map_ros
     grid_map_msgs
-    tf2_ros
 )
 
 include_directories(
